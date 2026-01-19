@@ -1,0 +1,19 @@
+package xyz.mambaout.canteenanalysis.entity.po;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.time.LocalDateTime;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class BasicDataStudentsConsumption {
+    public String id;
+    public String studentId;
+    public LocalDateTime consumptionTime;
+    public Integer windowId;
+    public Double amount;
+    public String mealType;
+}
