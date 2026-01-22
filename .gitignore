@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# Node
+node_modules/
+dist/
+.env
+
+# Build artifacts
+*.class
+target/
+.mvn/
